@@ -1,3 +1,7 @@
+body {
+    background: black;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +34,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+canvas {
+    border: 1px solid #000;
+    max-width: 99%;
+    height: auto !important;
+}
+
+.inputchanger label {
+    color: #fff;
 }
