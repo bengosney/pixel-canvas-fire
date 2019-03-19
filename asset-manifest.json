@@ -1,14 +1,14 @@
 {
-  "main.css": "/pixelcanvasdemos/static/css/main.6e579b8b.chunk.css",
-  "main.js": "/pixelcanvasdemos/static/js/main.a0264f09.chunk.js",
-  "main.js.map": "/pixelcanvasdemos/static/js/main.a0264f09.chunk.js.map",
+  "main.css": "/pixelcanvasdemos/static/css/main.bdb50e0e.chunk.css",
+  "main.js": "/pixelcanvasdemos/static/js/main.7a507f7a.chunk.js",
+  "main.js.map": "/pixelcanvasdemos/static/js/main.7a507f7a.chunk.js.map",
   "runtime~main.js": "/pixelcanvasdemos/static/js/runtime~main.67fbaf82.js",
   "runtime~main.js.map": "/pixelcanvasdemos/static/js/runtime~main.67fbaf82.js.map",
-  "static/js/2.f213e47f.chunk.js": "/pixelcanvasdemos/static/js/2.f213e47f.chunk.js",
-  "static/js/2.f213e47f.chunk.js.map": "/pixelcanvasdemos/static/js/2.f213e47f.chunk.js.map",
+  "static/js/2.67b98335.chunk.js": "/pixelcanvasdemos/static/js/2.67b98335.chunk.js",
+  "static/js/2.67b98335.chunk.js.map": "/pixelcanvasdemos/static/js/2.67b98335.chunk.js.map",
   "index.html": "/pixelcanvasdemos/index.html",
-  "precache-manifest.c05d028e3c47329327da5729a05f12ab.js": "/pixelcanvasdemos/precache-manifest.c05d028e3c47329327da5729a05f12ab.js",
+  "precache-manifest.8a54cd17ef4664c86e7e2bc576962d07.js": "/pixelcanvasdemos/precache-manifest.8a54cd17ef4664c86e7e2bc576962d07.js",
   "service-worker.js": "/pixelcanvasdemos/service-worker.js",
-  "static/css/main.6e579b8b.chunk.css.map": "/pixelcanvasdemos/static/css/main.6e579b8b.chunk.css.map",
+  "static/css/main.bdb50e0e.chunk.css.map": "/pixelcanvasdemos/static/css/main.bdb50e0e.chunk.css.map",
   "static/media/logo.svg": "/pixelcanvasdemos/static/media/logo.5d5d9eef.svg"
 }
