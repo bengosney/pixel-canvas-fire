@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -120,8 +119,6 @@ class App extends Component {
 	
 	ctx.fillStyle = this.pallet[0];
 	ctx.fillRect(0, 0, width * pixelSize, height * pixelSize);
-
-	const drawState = this.fireState;
 	
 	for (let x = 0; x < width; x++) {
 	    for (let y = 0; y < height; y++) {
@@ -136,25 +133,9 @@ class App extends Component {
 	}
     }
 
-    handleChange(name, event) {
-	const newState = {};
-
-	newState[name] = event.target.value;
-	
-	this.setState(newState);
-    }
     
     render() {
-	const { pixelSize, fontSize, decay, height, width, text} = this.state;
-
-	const renderInput = (name, value) => {
-	    return (
-		<div className="inputchanger">
-		  <label htmlFor={name}>{name}</label>
-		  <input name={name} value={ value } onChange={ (e) => this.handleChange(name, e)} />
-		</div>
-	    );
-	};
+	const { width, height } = this.state;
 	
 	return (
 	    <div>
