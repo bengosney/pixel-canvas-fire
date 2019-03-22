@@ -7,7 +7,7 @@ class App extends Component {
 	super(props);
 
 	this.state = {
-	    pixelSize: 6,
+	    pixelSize: 10,
 	    height: 500,
 	    width: 150
 	};
