@@ -46,7 +46,7 @@ class App extends Component {
     }
     
     updateWindowDimensions() {
-	this.setState({ width: window.innerWidth, height: window.innerHeight });
+	this.setState({ width: window.innerWidth, height: window.innerHeight }, () => this.fireState = this.emptyFireState());
     }
     
     componentWillUnmount() {
@@ -101,7 +101,7 @@ class App extends Component {
 		    
 		    newState[ny][nx] = Math.max(0, pixel - (mod & 1));
 		} catch(error) {
-		    //console.error(error, ax, ay, nx, ny);
+		    //
 		}
 	    }
 	}
