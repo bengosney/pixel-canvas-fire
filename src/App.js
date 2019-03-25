@@ -128,7 +128,8 @@ class App extends Component {
 
 		try {
 		    if (this.fireState[ay][ax] !== 0) {
-			ctx.fillStyle = this.pallet[this.fireState[ay][ax]];
+			const idx = this.fireState[ay][ax] || 0;
+			ctx.fillStyle = this.pallet[idx];
 			ctx.fillRect(x * pixelSize, y * pixelSize, pixelSize, pixelSize);
 		    }
 		} catch (e) {
