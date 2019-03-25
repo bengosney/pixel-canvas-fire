@@ -88,17 +88,18 @@ class App extends Component {
 	const newState = this.emptyFireState();
 	
 	for (let x = 0; x < width; x++) {
-	    for (let y = 0; y < height - 1; y++) {	
+	    for (let y = 0; y < height - 1; y++) {
+		const mod = Math.round(Math.random() * 3.0) & 3;
+		const wave = 0;
+
 		const ay = y;
-		const ax = x;
+		const ax = Math.min(x + wave, width);
 		
-		const ny = Math.max(ay + 1, 0);
-		const nx = Math.min(Math.max(ax, 0), width);
+		const ny = Math.max(y + 1, 0);
+		const nx = Math.min(Math.max(x, 0), width);
 		
 		try {
-		    const pixel = this.fireState[ay][ax];
-		    const mod = Math.round(Math.random() * 3.0) & 3;
-		    
+		    const pixel = this.fireState[ay][ax];		    
 		    newState[ny][nx] = Math.max(0, pixel - (mod & 1));
 		} catch(error) {
 		    //
