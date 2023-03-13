@@ -86,7 +86,7 @@ class App extends Component {
   updateWindowDimensions() {
 	const { pixelsPerRow } = this.state;
     this.setState(
-      { width: window.innerWidth, height: window.innerHeight, pixelSize: Math.floor(window.innerWidth / pixelsPerRow) },
+      { width: window.innerWidth, height: window.innerHeight, pixelSize: Math.ceil(window.innerWidth / pixelsPerRow) },
       () => (this.fireState = this.emptyFireState())
     );
   }
@@ -109,13 +109,13 @@ class App extends Component {
   getWidth() {
     const { width } = this.state;
     const pixelSize = this.getPixelSize();
-    return Math.floor(width / pixelSize);
+    return Math.ceil(width / pixelSize);
   }
 
   getHeight() {
     const { height } = this.state;
     const pixelSize = this.getPixelSize();
-    return Math.max(1, Math.floor(height / pixelSize));
+    return Math.max(1, Math.ceil(height / pixelSize));
   }
 
   getPixelSize() {
@@ -195,10 +195,11 @@ class App extends Component {
 
     return (
       <div>
-		<div className="controls" style={{position: "fixed"}}>
-			<input type="number" min="1" max="100" value={pixelSize || 10} onChange={(e) => this.changePixelSize(e)} />
+		<div className="controls">
+			<label for="pixelsize">Pixel Size</label>
+			<input id="pixelsize" type="number" min="1" max="100" value={pixelSize || 10} onChange={(e) => this.changePixelSize(e)} />
 		</div>
-        <div>
+        <div className="canvasWrapper">
           <canvas ref="canvas" width={width} height={height} />
         </div>
       </div>
