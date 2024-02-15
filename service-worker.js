@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pixelcanvasdemos/precache-manifest.8ebc62f7926942397afc1010b1b0cb62.js"
+  "/pixel-canvas-fire/precache-manifest.f27ab3616aa4df8c0939336fb0c44957.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pixelcanvasdemos/index.html", {
+workbox.routing.registerNavigationRoute("/pixel-canvas-fire/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

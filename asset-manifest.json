@@ -1,13 +1,13 @@
 {
-  "main.css": "/pixelcanvasdemos/static/css/main.30779bb3.chunk.css",
-  "main.js": "/pixelcanvasdemos/static/js/main.4a78378c.chunk.js",
-  "main.js.map": "/pixelcanvasdemos/static/js/main.4a78378c.chunk.js.map",
-  "runtime~main.js": "/pixelcanvasdemos/static/js/runtime~main.67fbaf82.js",
-  "runtime~main.js.map": "/pixelcanvasdemos/static/js/runtime~main.67fbaf82.js.map",
-  "static/js/2.b9af80ce.chunk.js": "/pixelcanvasdemos/static/js/2.b9af80ce.chunk.js",
-  "static/js/2.b9af80ce.chunk.js.map": "/pixelcanvasdemos/static/js/2.b9af80ce.chunk.js.map",
-  "index.html": "/pixelcanvasdemos/index.html",
-  "precache-manifest.8ebc62f7926942397afc1010b1b0cb62.js": "/pixelcanvasdemos/precache-manifest.8ebc62f7926942397afc1010b1b0cb62.js",
-  "service-worker.js": "/pixelcanvasdemos/service-worker.js",
-  "static/css/main.30779bb3.chunk.css.map": "/pixelcanvasdemos/static/css/main.30779bb3.chunk.css.map"
+  "main.css": "/pixel-canvas-fire/static/css/main.30779bb3.chunk.css",
+  "main.js": "/pixel-canvas-fire/static/js/main.4f43e745.chunk.js",
+  "main.js.map": "/pixel-canvas-fire/static/js/main.4f43e745.chunk.js.map",
+  "runtime~main.js": "/pixel-canvas-fire/static/js/runtime~main.a0a932be.js",
+  "runtime~main.js.map": "/pixel-canvas-fire/static/js/runtime~main.a0a932be.js.map",
+  "static/js/2.b9af80ce.chunk.js": "/pixel-canvas-fire/static/js/2.b9af80ce.chunk.js",
+  "static/js/2.b9af80ce.chunk.js.map": "/pixel-canvas-fire/static/js/2.b9af80ce.chunk.js.map",
+  "index.html": "/pixel-canvas-fire/index.html",
+  "precache-manifest.f27ab3616aa4df8c0939336fb0c44957.js": "/pixel-canvas-fire/precache-manifest.f27ab3616aa4df8c0939336fb0c44957.js",
+  "service-worker.js": "/pixel-canvas-fire/service-worker.js",
+  "static/css/main.30779bb3.chunk.css.map": "/pixel-canvas-fire/static/css/main.30779bb3.chunk.css.map"
 }
