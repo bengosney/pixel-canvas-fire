@@ -2,7 +2,7 @@
   "name": "fire",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bengosney.github.io/pixelcanvasdemos/",
+  "homepage": "https://bengosney.github.io/pixel-canvas-fire/",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
