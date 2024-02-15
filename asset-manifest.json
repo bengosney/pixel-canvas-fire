@@ -1,13 +1,13 @@
 {
-  "main.css": "/pixelcanvasdemos/static/css/main.6e579b8b.chunk.css",
-  "main.js": "/pixelcanvasdemos/static/js/main.befd950f.chunk.js",
-  "main.js.map": "/pixelcanvasdemos/static/js/main.befd950f.chunk.js.map",
+  "main.css": "/pixelcanvasdemos/static/css/main.30779bb3.chunk.css",
+  "main.js": "/pixelcanvasdemos/static/js/main.4a78378c.chunk.js",
+  "main.js.map": "/pixelcanvasdemos/static/js/main.4a78378c.chunk.js.map",
   "runtime~main.js": "/pixelcanvasdemos/static/js/runtime~main.67fbaf82.js",
   "runtime~main.js.map": "/pixelcanvasdemos/static/js/runtime~main.67fbaf82.js.map",
-  "static/js/2.67b98335.chunk.js": "/pixelcanvasdemos/static/js/2.67b98335.chunk.js",
-  "static/js/2.67b98335.chunk.js.map": "/pixelcanvasdemos/static/js/2.67b98335.chunk.js.map",
+  "static/js/2.b9af80ce.chunk.js": "/pixelcanvasdemos/static/js/2.b9af80ce.chunk.js",
+  "static/js/2.b9af80ce.chunk.js.map": "/pixelcanvasdemos/static/js/2.b9af80ce.chunk.js.map",
   "index.html": "/pixelcanvasdemos/index.html",
-  "precache-manifest.c9d65685285f659cc3aaa3905e98c5ba.js": "/pixelcanvasdemos/precache-manifest.c9d65685285f659cc3aaa3905e98c5ba.js",
+  "precache-manifest.8ebc62f7926942397afc1010b1b0cb62.js": "/pixelcanvasdemos/precache-manifest.8ebc62f7926942397afc1010b1b0cb62.js",
   "service-worker.js": "/pixelcanvasdemos/service-worker.js",
-  "static/css/main.6e579b8b.chunk.css.map": "/pixelcanvasdemos/static/css/main.6e579b8b.chunk.css.map"
+  "static/css/main.30779bb3.chunk.css.map": "/pixelcanvasdemos/static/css/main.30779bb3.chunk.css.map"
 }
